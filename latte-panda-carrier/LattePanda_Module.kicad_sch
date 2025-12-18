@@ -6459,10 +6459,6 @@
 		(uuid "54be1cb9-8467-41d9-9b54-2367cc98e9ad")
 	)
 	(no_connect
-		(at 242.57 105.41)
-		(uuid "5ba9cefe-718b-4c21-af63-6af707bf726d")
-	)
-	(no_connect
 		(at 245.11 264.16)
 		(uuid "5c389b65-6ca4-45c3-b754-f52581f147f9")
 	)
@@ -6633,6 +6629,10 @@
 	(no_connect
 		(at 326.39 328.93)
 		(uuid "e7454357-8ae4-4373-b7c6-ae0ec19f5807")
+	)
+	(no_connect
+		(at 245.11 232.41)
+		(uuid "ea2370d3-68c0-4d99-9dc0-b4d6802585d9")
 	)
 	(no_connect
 		(at 245.11 285.75)
@@ -6902,16 +6902,6 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 161.29) (xy 336.55 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9525a243-064d-4d91-bede-10a88cc0d9eb")
-	)
-	(wire
-		(pts
 			(xy 245.11 85.09) (xy 196.85 85.09)
 		)
 		(stroke
@@ -6990,9 +6980,20 @@
 		)
 		(uuid "e97e6896-5786-46b8-9e99-0bb7b39a7ccb")
 	)
-	(hierarchical_label "SUSCLK_WIFI"
-		(shape input)
-		(at 336.55 161.29 0)
+	(hierarchical_label "DDI_B_TX3-"
+		(shape output)
+		(at 245.11 240.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0240bc9e-4505-4a09-8426-6b7fc48a373a")
+	)
+	(hierarchical_label "USB_2_P5+"
+		(shape bidirectional)
+		(at 326.39 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7003,7 +7004,7 @@
 	)
 	(hierarchical_label "USB_2_P5-"
 		(shape bidirectional)
-		(at 336.55 133.35 0)
+		(at 326.39 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7012,9 +7013,9 @@
 		)
 		(uuid "0390b359-48ac-429d-b645-26ac71abab53")
 	)
-	(hierarchical_label "USB_2_P5+"
-		(shape bidirectional)
-		(at 336.55 130.81 0)
+	(hierarchical_label "SUSCLK_WIFI"
+		(shape input)
+		(at 326.39 161.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7022,6 +7023,193 @@
 			(justify left)
 		)
 		(uuid "0390b359-48ac-429d-b645-26ac71abab53")
+	)
+	(hierarchical_label "I2C2_SCL"
+		(shape output)
+		(at 326.39 232.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0a090957-413f-4938-a0d7-71ff9abe62e4")
+	)
+	(hierarchical_label "DDI_B_ODC_SDA"
+		(shape bidirectional)
+		(at 245.11 226.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0a80eb53-8af5-499f-a93b-0a5ba2ab8b95")
+	)
+	(hierarchical_label "SOC_UART2_TX"
+		(shape output)
+		(at 326.39 204.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0d5d5a3a-bac8-45d1-9e72-73bcd1e8128a")
+	)
+	(hierarchical_label "HSIO_9_RX+"
+		(shape input)
+		(at 245.11 151.13 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "102cd8a4-26e2-4dac-bda7-ae1c17d39b9d")
+	)
+	(hierarchical_label "DDI_B_TX2-"
+		(shape output)
+		(at 245.11 245.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "12221e40-2446-4abc-9e6a-dd4869565d8d")
+	)
+	(hierarchical_label "DDI_B_TX0-"
+		(shape output)
+		(at 245.11 255.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "12ee5fdb-f35c-42e3-a8c9-d61c6d3fd606")
+	)
+	(hierarchical_label "HSIO_10_RX+"
+		(shape input)
+		(at 245.11 161.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "13f6abe9-7e4e-44d5-ae36-918122e06e6e")
+	)
+	(hierarchical_label "SOC_UART2_RX"
+		(shape input)
+		(at 326.39 201.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1624c865-74a8-48b9-88f5-1f97582b8240")
+	)
+	(hierarchical_label "REFCLK_2-"
+		(shape output)
+		(at 326.39 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "17effa38-d7fc-4b2b-9ad8-5ad4ca3e609f")
+	)
+	(hierarchical_label "HSIO_8_TX-"
+		(shape output)
+		(at 245.11 138.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1b25a698-e481-47f4-b8cb-dcacd03af0a7")
+	)
+	(hierarchical_label "HSIO_8_RX+"
+		(shape input)
+		(at 245.11 140.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1fc1c7cc-8684-404e-b572-8cac6fbec60e")
+	)
+	(hierarchical_label "HSIO_3_RX-"
+		(shape input)
+		(at 245.11 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2085ba2a-09ba-4cad-95b1-2ecb9946097c")
+	)
+	(hierarchical_label "USB_2_P2+"
+		(shape bidirectional)
+		(at 245.11 194.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "24eca621-4d01-477f-96fc-23a1aa9a4f0c")
+	)
+	(hierarchical_label "HSIO_1_TX+"
+		(shape output)
+		(at 245.11 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "26371bb9-c0d4-4047-ad18-358138dedff2")
+	)
+	(hierarchical_label "HSIO_1_TX-"
+		(shape output)
+		(at 245.11 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "282a9074-5320-43c8-ba82-a6f6ae6df279")
+	)
+	(hierarchical_label "DDI_B_ODC_SCL"
+		(shape output)
+		(at 245.11 228.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2ab7e087-d89d-43c0-aa7a-b3cb7d15acda")
+	)
+	(hierarchical_label "SOC_UART0_RX"
+		(shape input)
+		(at 326.39 191.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2ac5b11e-0991-493a-9f09-0a293edadbc8")
 	)
 	(hierarchical_label "~{PWR_SW}"
 		(shape input)
@@ -7033,6 +7221,402 @@
 			(justify right)
 		)
 		(uuid "305e98d4-7ac5-4b75-a681-d64d6eb2666a")
+	)
+	(hierarchical_label "USB_2_P1+"
+		(shape bidirectional)
+		(at 245.11 189.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "30fb3c4c-2136-44ed-b205-c5786aa0feca")
+	)
+	(hierarchical_label "I2C4_SDA"
+		(shape bidirectional)
+		(at 326.39 240.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "315fc928-fe86-4e7c-b196-63a821b36f65")
+	)
+	(hierarchical_label "I2C2_SDA"
+		(shape bidirectional)
+		(at 326.39 229.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "31822f6b-7d9d-4318-963d-b21f06e7c16e")
+	)
+	(hierarchical_label "I2C3_SDA"
+		(shape bidirectional)
+		(at 326.39 234.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "32a8acbb-2bb3-429b-90b9-4c0d18358b69")
+	)
+	(hierarchical_label "HSIO_10_RX-"
+		(shape input)
+		(at 245.11 163.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "34582085-b426-4a98-b4d0-761d27bcc392")
+	)
+	(hierarchical_label "HSIO_2_TX+"
+		(shape output)
+		(at 245.11 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3ab54913-69e9-4dcf-8d6c-03eb77692d72")
+	)
+	(hierarchical_label "SOC_UART0_TX"
+		(shape output)
+		(at 326.39 194.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3b7b2444-8dfe-45e9-a20f-1060b46bb65f")
+	)
+	(hierarchical_label "HSIO_0_RX-"
+		(shape input)
+		(at 245.11 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3dbecbc9-6e08-4086-91b8-f05b268a5fde")
+	)
+	(hierarchical_label "HSIO_0_TX-"
+		(shape output)
+		(at 245.11 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3dbecbc9-6e08-4086-91b8-f05b268a5fde")
+	)
+	(hierarchical_label "HSIO_0_RX+"
+		(shape input)
+		(at 245.11 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3dbecbc9-6e08-4086-91b8-f05b268a5fde")
+	)
+	(hierarchical_label "HSIO_0_TX+"
+		(shape output)
+		(at 245.11 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3dbecbc9-6e08-4086-91b8-f05b268a5fde")
+	)
+	(hierarchical_label "I2C4_SCL"
+		(shape output)
+		(at 326.39 242.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "409232b2-5b18-41f7-8d30-43c9b9a1466e")
+	)
+	(hierarchical_label "REFCLK_3-"
+		(shape output)
+		(at 326.39 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "413242e4-d348-45e7-af8d-ee8ed7e155d8")
+	)
+	(hierarchical_label "HSIO_2_TX-"
+		(shape output)
+		(at 245.11 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "433186f7-6ac3-4b6d-b5c1-3d9d6ba191be")
+	)
+	(hierarchical_label "HSIO_2_RX+"
+		(shape input)
+		(at 245.11 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4343c56b-9b72-421e-97b2-6b5c139747ec")
+	)
+	(hierarchical_label "HSIO_9_TX-"
+		(shape output)
+		(at 245.11 148.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4a25078a-333b-4f6e-9c0c-e3778490a0f5")
+	)
+	(hierarchical_label "FAN_1_PWM"
+		(shape output)
+		(at 326.39 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4a97cf2f-a8ba-4c35-b02b-e438c12f3530")
+	)
+	(hierarchical_label "FAN_1_TAC"
+		(shape input)
+		(at 326.39 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4a97cf2f-a8ba-4c35-b02b-e438c12f3530")
+	)
+	(hierarchical_label "DDI_B_TX3+"
+		(shape output)
+		(at 245.11 237.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4bbd108e-f3b9-4b4e-8b1d-a376ffef25ef")
+	)
+	(hierarchical_label "DDI_B_HDP"
+		(shape input)
+		(at 245.11 222.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "51c35925-4374-4109-a886-d1bb05a65262")
+	)
+	(hierarchical_label "HSIO_10_TX+"
+		(shape output)
+		(at 245.11 156.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "55a1c748-99e7-444c-83fa-a070c31295ea")
+	)
+	(hierarchical_label "HSIO_9_RX-"
+		(shape input)
+		(at 245.11 153.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "55cc969e-075b-49e9-a24c-48d3f4b19281")
+	)
+	(hierarchical_label "HSIO_3_TX-"
+		(shape output)
+		(at 245.11 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "58947af7-5fb0-44f3-a31e-48fcf505ad41")
+	)
+	(hierarchical_label "DDI_B_TX1+"
+		(shape output)
+		(at 245.11 247.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "590145b2-6771-41e2-9f14-8a5cc57f915c")
+	)
+	(hierarchical_label "HSIO_3_TX+"
+		(shape output)
+		(at 245.11 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "60e11422-8946-42a4-a720-7d087651011a")
+	)
+	(hierarchical_label "REFCLK_3+"
+		(shape output)
+		(at 326.39 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "69f0f4e1-4477-49b8-98be-abb7b715ab5a")
+	)
+	(hierarchical_label "USB_2_P7+"
+		(shape bidirectional)
+		(at 245.11 209.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6ab30e8d-62c5-4753-9daa-ddac04406011")
+	)
+	(hierarchical_label "HSIO_2_RX-"
+		(shape input)
+		(at 245.11 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "74c09efd-e070-42a4-9c29-04ff22f31986")
+	)
+	(hierarchical_label "HSIO_9_TX+"
+		(shape output)
+		(at 245.11 146.05 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "769aec4a-81f8-46eb-9471-6027f171e16f")
+	)
+	(hierarchical_label "REFCLK_4-"
+		(shape output)
+		(at 326.39 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "76c20dda-279f-4963-89fb-7cbf4f817ce9")
+	)
+	(hierarchical_label "~{PLT_RST}"
+		(shape output)
+		(at 326.39 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "788b3ec3-cafc-47d6-83e4-20beff7bb0b9")
+	)
+	(hierarchical_label "USB_2_P7-"
+		(shape bidirectional)
+		(at 245.11 212.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "88212670-1776-4a35-a56f-3b8c5148878a")
+	)
+	(hierarchical_label "DDI_B_TX2+"
+		(shape output)
+		(at 245.11 242.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8cb8046b-8aca-4d9d-854d-f75e8ae555ad")
+	)
+	(hierarchical_label "HSIO_6_TX+"
+		(shape output)
+		(at 245.11 179.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "94deed45-1b75-445a-a896-f3cf4eba33d9")
+	)
+	(hierarchical_label "HSIO_11_RX+"
+		(shape input)
+		(at 245.11 171.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "94e58abd-1a72-44a2-aed8-7fe612a6192d")
+	)
+	(hierarchical_label "REFCLK_2+"
+		(shape output)
+		(at 326.39 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "97cb7eb9-2f8d-4dd2-955c-53bf27f1b6a1")
 	)
 	(hierarchical_label "SLS_S3"
 		(shape output)
@@ -7056,6 +7640,116 @@
 		)
 		(uuid "9bdbad05-acb4-429e-aabd-068dbdc419b8")
 	)
+	(hierarchical_label "HSIO_1_RX-"
+		(shape input)
+		(at 245.11 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9c1e97f0-c2a0-4994-8eb3-45d15473a21e")
+	)
+	(hierarchical_label "USB_2_P3+"
+		(shape bidirectional)
+		(at 245.11 199.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9c97a40b-43eb-45e8-8863-0b668f132cfa")
+	)
+	(hierarchical_label "HSIO_11_TX-"
+		(shape output)
+		(at 245.11 168.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a1849b99-3877-410e-91cb-0e63834e4846")
+	)
+	(hierarchical_label "USB_2_P3-"
+		(shape bidirectional)
+		(at 245.11 201.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a2bd4aa9-6bf3-4d20-b4a8-508cbf56bbca")
+	)
+	(hierarchical_label "I2C5_SDA"
+		(shape bidirectional)
+		(at 326.39 245.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a8bb8205-6d11-492b-afd8-1981890f9542")
+	)
+	(hierarchical_label "HSIO_6_TX-"
+		(shape output)
+		(at 245.11 181.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ac2ee902-cbfa-41f6-8268-08214093de19")
+	)
+	(hierarchical_label "GPP_D2"
+		(shape bidirectional)
+		(at 326.39 184.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b384dd27-d355-4f8d-8cc5-6d7c4f141c1f")
+	)
+	(hierarchical_label "USB_2_P2-"
+		(shape bidirectional)
+		(at 245.11 196.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b6365e10-5400-4d98-aa77-3e5158bc2787")
+	)
+	(hierarchical_label "HSIO_11_TX+"
+		(shape output)
+		(at 245.11 166.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b95296e2-bb5f-41e9-83df-42fde396469b")
+	)
+	(hierarchical_label "GPP_D1"
+		(shape bidirectional)
+		(at 326.39 181.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bcd817fa-2250-42dc-9208-9b5707613c49")
+	)
 	(hierarchical_label "~{PWR_LED}{slash}~{PSON}"
 		(shape output)
 		(at 245.11 80.01 180)
@@ -7066,6 +7760,237 @@
 			(justify right)
 		)
 		(uuid "c2e8b646-6a6a-428d-b78c-5f6d5452f1e9")
+	)
+	(hierarchical_label "DDI_B_TX1-"
+		(shape output)
+		(at 245.11 250.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c31ee535-1c63-47f2-a54e-1ec5195a28ba")
+	)
+	(hierarchical_label "GPP_D0"
+		(shape bidirectional)
+		(at 326.39 179.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c3fcecb8-2a4d-4c63-9252-d9ee3cfa3b9c")
+	)
+	(hierarchical_label "REFCLK_4+"
+		(shape output)
+		(at 326.39 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ca3d3c55-9ffe-4692-8d2b-745a85613d5d")
+	)
+	(hierarchical_label "SOC_UART1_RX"
+		(shape input)
+		(at 326.39 196.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cab79d6c-a89c-4429-9251-db0986f64e84")
+	)
+	(hierarchical_label "I2C5_SCL"
+		(shape output)
+		(at 326.39 247.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cbcb8faa-c99d-4e69-bab7-3896c4f6779c")
+	)
+	(hierarchical_label "HSIO_8_TX+"
+		(shape output)
+		(at 245.11 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cc166eca-d6b5-46b0-a684-e74977e101e4")
+	)
+	(hierarchical_label "I2C3_SCL"
+		(shape output)
+		(at 326.39 237.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ce5b1ea2-046e-45a6-9189-ba61ebf4f1f5")
+	)
+	(hierarchical_label "HSIO_8_RX-"
+		(shape input)
+		(at 245.11 143.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d2c3ca60-a853-4721-a903-e5d1ed75af79")
+	)
+	(hierarchical_label "USB_2_P1-"
+		(shape bidirectional)
+		(at 245.11 191.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d4654df4-8e77-4c19-9067-731a76a34fb3")
+	)
+	(hierarchical_label "GPP_D3"
+		(shape bidirectional)
+		(at 326.39 186.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e0be3fdd-502d-4050-9198-98b566c0ceb1")
+	)
+	(hierarchical_label "SOC_UART1_TX"
+		(shape output)
+		(at 326.39 199.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e386f3ad-fbba-43d5-b716-cc7c9a891e7d")
+	)
+	(hierarchical_label "HSIO_1_RX+"
+		(shape input)
+		(at 245.11 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e4c05b39-039e-4615-995a-07dd61743b7f")
+	)
+	(hierarchical_label "HSIO_6_RX-"
+		(shape input)
+		(at 245.11 186.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eb0735b9-06f0-43bb-912e-04a426032c47")
+	)
+	(hierarchical_label "~{PEWAKE}"
+		(shape output)
+		(at 326.39 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ecda733a-abea-4004-b8ed-f1025685ee53")
+	)
+	(hierarchical_label "REFCLK_0+"
+		(shape output)
+		(at 326.39 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ee2a7a07-2fdd-4cda-be88-e031926e7c20")
+	)
+	(hierarchical_label "REFCLK_0-"
+		(shape output)
+		(at 326.39 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ee2a7a07-2fdd-4cda-be88-e031926e7c20")
+	)
+	(hierarchical_label "HSIO_11_RX-"
+		(shape input)
+		(at 245.11 173.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f22dc332-e655-4908-af05-c9871e166009")
+	)
+	(hierarchical_label "HSIO_3_RX+"
+		(shape input)
+		(at 245.11 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f2c650d0-3875-45a5-bb16-ca47a2523db9")
+	)
+	(hierarchical_label "HSIO_6_RX+"
+		(shape input)
+		(at 245.11 184.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f8fda93b-f5fc-4e4c-b35b-07d1e9bd2416")
+	)
+	(hierarchical_label "HSIO_10_TX-"
+		(shape output)
+		(at 245.11 158.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fdec983f-b392-46da-b777-3f183ef3eaae")
+	)
+	(hierarchical_label "DDI_B_TX0+"
+		(shape output)
+		(at 245.11 252.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ff04ff5a-31f0-4898-a4f6-c230fa0afd0e")
 	)
 	(symbol
 		(lib_id "power:+BATT")
@@ -7142,7 +8067,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3201f6ce-c047-46af-bb35-b8e4acb220ff")
-		(property "Reference" "BT?"
+		(property "Reference" "BT1"
 			(at 301.6885 53.34 90)
 			(effects
 				(font
@@ -7194,7 +8119,7 @@
 		(instances
 			(project ""
 				(path "/9ba2df7d-1c0f-41ea-bb38-2c3f31e14521/b21888af-f6e8-4fba-8e9d-8ac96a3e6368"
-					(reference "BT?")
+					(reference "BT1")
 					(unit 1)
 				)
 			)
