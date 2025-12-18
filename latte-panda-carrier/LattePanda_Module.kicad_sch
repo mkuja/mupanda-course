@@ -8135,7 +8135,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3667cdce-60f6-4fe3-b868-58804672619e")
-		(property "Reference" "TP?"
+		(property "Reference" "TP7"
 			(at 334.01 264.6679 0)
 			(effects
 				(font
@@ -8186,7 +8186,7 @@
 		(instances
 			(project ""
 				(path "/9ba2df7d-1c0f-41ea-bb38-2c3f31e14521/b21888af-f6e8-4fba-8e9d-8ac96a3e6368"
-					(reference "TP?")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
