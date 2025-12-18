@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "latte_mcu")(type "KiCad")(uri "${KIPRJMOD}/Libraries/MCU_Module_LattePanda.kicad_sym")(options "")(descr ""))
+  (lib (name "latte_hdj")(type "KiCad")(uri "/Users/mikko/src/LattePanda-Mu/Electricals/Examples/[DFR1142]Lite Carrier for LattePanda Mu/A_HDJ_Library.kicad_sym")(options "")(descr ""))
+)
