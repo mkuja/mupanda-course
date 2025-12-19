@@ -4805,6 +4805,12 @@
 		(uuid "0f71a8ed-4800-4c87-8657-bf347e0891a1")
 	)
 	(junction
+		(at 403.86 226.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15afac53-a144-49ff-a6c0-313997598da9")
+	)
+	(junction
 		(at 156.21 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5187,6 +5193,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9882dde1-240e-4c09-94d3-9c61146d334f")
+	)
+	(junction
+		(at 419.1 226.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d17bedd-9cb4-4f09-bba7-7cc12bf6233b")
 	)
 	(junction
 		(at 95.25 185.42)
@@ -5700,6 +5712,16 @@
 	)
 	(wire
 		(pts
+			(xy 419.1 226.06) (xy 455.93 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14fa67e4-0c1e-4461-b4fb-9ad74a3bed50")
+	)
+	(wire
+		(pts
 			(xy 218.44 106.68) (xy 218.44 109.22)
 		)
 		(stroke
@@ -6020,7 +6042,7 @@
 	)
 	(wire
 		(pts
-			(xy 381 226.06) (xy 455.93 226.06)
+			(xy 381 226.06) (xy 403.86 226.06)
 		)
 		(stroke
 			(width 0)
@@ -7200,6 +7222,16 @@
 	)
 	(wire
 		(pts
+			(xy 403.86 213.36) (xy 403.86 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95d6b49e-4f6d-4f79-b827-7e46ec0f4441")
+	)
+	(wire
+		(pts
 			(xy 83.82 278.13) (xy 157.48 278.13)
 		)
 		(stroke
@@ -8210,6 +8242,16 @@
 	)
 	(wire
 		(pts
+			(xy 419.1 213.36) (xy 419.1 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f76834d7-7901-450a-a32b-4dacc0e00f9c")
+	)
+	(wire
+		(pts
 			(xy 414.02 250.19) (xy 414.02 251.46)
 		)
 		(stroke
@@ -8307,6 +8349,16 @@
 			(type default)
 		)
 		(uuid "fdacb229-dfa1-4571-b766-b809601dfddc")
+	)
+	(wire
+		(pts
+			(xy 403.86 226.06) (xy 419.1 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdec83eb-3f64-4d70-9b9c-d528b1140fc0")
 	)
 	(wire
 		(pts
@@ -10426,7 +10478,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "35568766-dca8-4954-ab67-a698548d5f48")
-		(property "Reference" "R51"
+		(property "Reference" "R46"
 			(at 389.89 233.68 90)
 			(effects
 				(font
@@ -10478,7 +10530,7 @@
 		(instances
 			(project "latte-panda-carrier"
 				(path "/9ba2df7d-1c0f-41ea-bb38-2c3f31e14521/723302d9-c268-402b-9d89-874b935c2b0c"
-					(reference "R51")
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -10627,7 +10679,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "394eea07-613e-4da7-9de9-ea6c9901932f")
-		(property "Reference" "D?"
+		(property "Reference" "D24"
 			(at 412.75 160.9724 90)
 			(effects
 				(font
@@ -10681,7 +10733,7 @@
 		(instances
 			(project ""
 				(path "/9ba2df7d-1c0f-41ea-bb38-2c3f31e14521/723302d9-c268-402b-9d89-874b935c2b0c"
-					(reference "D?")
+					(reference "D24")
 					(unit 1)
 				)
 			)
@@ -11109,7 +11161,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4b0ca64d-0451-4988-827c-3b068e6e910c")
-		(property "Reference" "R?"
+		(property "Reference" "R39"
 			(at 143.51 110.4899 0)
 			(effects
 				(font
@@ -11163,7 +11215,7 @@
 		(instances
 			(project "latte-panda-carrier"
 				(path "/9ba2df7d-1c0f-41ea-bb38-2c3f31e14521/723302d9-c268-402b-9d89-874b935c2b0c"
-					(reference "R?")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -11523,7 +11575,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5d89750b-5cc6-4870-bea9-e9d89ea418e8")
-		(property "Reference" "C?"
+		(property "Reference" "C68"
 			(at 412.75 212.09 90)
 			(effects
 				(font
@@ -11575,7 +11627,7 @@
 		(instances
 			(project "latte-panda-carrier"
 				(path "/9ba2df7d-1c0f-41ea-bb38-2c3f31e14521/723302d9-c268-402b-9d89-874b935c2b0c"
-					(reference "C?")
+					(reference "C68")
 					(unit 1)
 				)
 			)
@@ -14116,7 +14168,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a62c511b-7eb8-486e-8711-948338e80b41")
-		(property "Reference" "C?"
+		(property "Reference" "C65"
 			(at 397.51 212.09 90)
 			(effects
 				(font
@@ -14168,7 +14220,7 @@
 		(instances
 			(project "latte-panda-carrier"
 				(path "/9ba2df7d-1c0f-41ea-bb38-2c3f31e14521/723302d9-c268-402b-9d89-874b935c2b0c"
-					(reference "C?")
+					(reference "C65")
 					(unit 1)
 				)
 			)
@@ -15797,7 +15849,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9d867e6-1248-4463-aa9f-823f0233c90e")
-		(property "Reference" "TP?"
+		(property "Reference" "TP13"
 			(at 434.34 153.6699 90)
 			(effects
 				(font
@@ -15848,7 +15900,7 @@
 		(instances
 			(project ""
 				(path "/9ba2df7d-1c0f-41ea-bb38-2c3f31e14521/723302d9-c268-402b-9d89-874b935c2b0c"
-					(reference "TP?")
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -17157,7 +17209,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ff85c535-8f9f-4e99-839c-fc6e33c328e8")
-		(property "Reference" "C?"
+		(property "Reference" "C67"
 			(at 412.75 198.12 90)
 			(effects
 				(font
@@ -17209,7 +17261,7 @@
 		(instances
 			(project "latte-panda-carrier"
 				(path "/9ba2df7d-1c0f-41ea-bb38-2c3f31e14521/723302d9-c268-402b-9d89-874b935c2b0c"
-					(reference "C?")
+					(reference "C67")
 					(unit 1)
 				)
 			)
