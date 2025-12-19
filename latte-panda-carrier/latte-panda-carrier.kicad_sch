@@ -299,6 +299,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(no_connect
+		(at 134.62 97.79)
+		(uuid "0315bb9f-b7ea-426f-ad32-f16abd97cb9d")
+	)
+	(no_connect
+		(at 134.62 101.6)
+		(uuid "22ff2924-64a7-4f99-8cef-3e2caae2a13e")
+	)
+	(no_connect
+		(at 134.62 110.49)
+		(uuid "774c716a-ae3e-471a-b9e3-0b0137a42b91")
+	)
 	(wire
 		(pts
 			(xy 184.15 48.26) (xy 217.17 48.26)
@@ -338,6 +350,26 @@
 			(type default)
 		)
 		(uuid "6edbcd01-26c1-4446-a10f-ef55cef563d9")
+	)
+	(wire
+		(pts
+			(xy 184.15 97.79) (xy 217.17 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8678d98c-0925-4012-8ae6-6b614f606569")
+	)
+	(wire
+		(pts
+			(xy 184.15 102.87) (xy 217.17 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4fb3be3-d073-413e-b2a8-eeff407251b2")
 	)
 	(label "~{PWR_LED}{slash}~{PSON}"
 		(at 191.77 55.88 0)
@@ -1043,6 +1075,56 @@
 				(justify left top)
 			)
 		)
+		(pin "FAN_1_PWM" input
+			(at 184.15 97.79 0)
+			(uuid "91c71d4d-7a04-4ede-b9a9-16eacdb76cb2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FAN_1_TAC" output
+			(at 184.15 102.87 0)
+			(uuid "b4ee8afb-8892-447c-ab8f-5bf0f37323d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FAN_2_PWM" input
+			(at 134.62 97.79 180)
+			(uuid "b092db19-e994-4b9c-abe2-405762d4a455")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FAN_2_TAC" output
+			(at 134.62 101.6 180)
+			(uuid "029fe785-3426-4a10-a0d3-4c67cb78ca2b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TEMP" output
+			(at 134.62 110.49 180)
+			(uuid "4147ad8e-ffec-412f-ae89-67f4a71bb8ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "latte-panda-carrier"
 				(path "/9ba2df7d-1c0f-41ea-bb38-2c3f31e14521"
@@ -1378,117 +1460,117 @@
 			)
 		)
 		(pin "DDI_B_HDP" input
-			(at 217.17 76.2 180)
+			(at 340.36 307.34 0)
 			(uuid "8120995e-cc88-4793-a3c7-2cff5e517994")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "DDI_B_ODC_SCL" output
-			(at 217.17 78.74 180)
+			(at 340.36 309.88 0)
 			(uuid "fd091aa2-c871-4706-8ff9-daeba54de1c9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "DDI_B_ODC_SDA" bidirectional
-			(at 217.17 81.28 180)
+			(at 340.36 312.42 0)
 			(uuid "b21322f8-040f-44fd-830d-a7e0e6354111")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "DDI_B_TX0+" output
-			(at 217.17 85.09 180)
+			(at 340.36 316.23 0)
 			(uuid "c99ec79e-c1e2-470b-8b4e-bb204efe5acb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "DDI_B_TX0-" output
-			(at 217.17 87.63 180)
+			(at 340.36 318.77 0)
 			(uuid "94630de4-1d9e-47a5-af8c-d108764bccaa")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "DDI_B_TX1+" output
-			(at 217.17 91.44 180)
+			(at 340.36 322.58 0)
 			(uuid "a5fad6bc-d5bd-4650-80cb-47bedb6c5fe3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "DDI_B_TX1-" output
-			(at 217.17 93.98 180)
+			(at 340.36 325.12 0)
 			(uuid "b85773ea-bca3-4480-8f44-fe770c3639cd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "DDI_B_TX2+" output
-			(at 217.17 97.79 180)
+			(at 340.36 328.93 0)
 			(uuid "16ea0c9e-2adc-4e63-ba4f-2b80604d522e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "DDI_B_TX2-" output
-			(at 217.17 100.33 180)
+			(at 340.36 331.47 0)
 			(uuid "240a68ac-98cf-4796-8599-7b7aab39f2c1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "DDI_B_TX3+" output
-			(at 217.17 104.14 180)
+			(at 340.36 335.28 0)
 			(uuid "5e756476-bf81-44da-9cda-25ef27a8787e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "DDI_B_TX3-" output
-			(at 217.17 106.68 180)
+			(at 340.36 337.82 0)
 			(uuid "c71ceb48-7f33-42c7-852b-51908911aaad")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "FAN_1_PWM" output
-			(at 217.17 110.49 180)
+			(at 217.17 97.79 180)
 			(uuid "45b69fa0-663c-41c5-acf9-a334f970c048")
 			(effects
 				(font
@@ -1498,7 +1580,7 @@
 			)
 		)
 		(pin "FAN_1_TAC" input
-			(at 217.17 113.03 180)
+			(at 217.17 102.87 180)
 			(uuid "eedb2253-a5ef-44e1-b6e9-b76e58d8a461")
 			(effects
 				(font
