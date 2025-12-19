@@ -299,6 +299,56 @@
 			(embedded_fonts no)
 		)
 	)
+	(wire
+		(pts
+			(xy 184.15 48.26) (xy 217.17 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "271ecf23-296b-4976-8794-d435c1b938c5")
+	)
+	(wire
+		(pts
+			(xy 184.15 55.88) (xy 217.17 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35f2aeff-a2bc-47b2-8ef2-cc676d91aa7c")
+	)
+	(wire
+		(pts
+			(xy 184.15 64.77) (xy 217.17 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "680e7b94-24a7-41ed-b135-54dca649f701")
+	)
+	(wire
+		(pts
+			(xy 184.15 72.39) (xy 217.17 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6edbcd01-26c1-4446-a10f-ef55cef563d9")
+	)
+	(label "~{PWR_LED}{slash}~{PSON}"
+		(at 191.77 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "748d33c2-5e5d-4bbf-b857-e72e6afdc8e8")
+	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 502.92 350.52 0)
@@ -1171,7 +1221,7 @@
 	)
 	(sheet
 		(at 134.62 45.72)
-		(size 49.53 27.94)
+		(size 49.53 32.385)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1195,12 +1245,52 @@
 			)
 		)
 		(property "Sheetfile" "Power_Supply.kicad_sch"
-			(at 134.62 74.2446 0)
+			(at 134.62 78.6896 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "SLS_S3" input
+			(at 184.15 48.26 0)
+			(uuid "b3c1983a-6e19-4855-9100-35b1e63dbdb8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{PWR_LED}{slash}~{PSON}" input
+			(at 184.15 55.88 0)
+			(uuid "74052d9f-0679-4d8c-b00b-7c562b31b3a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{PWR_SW}" output
+			(at 184.15 64.77 0)
+			(uuid "0f35fd8c-9e31-408d-9f7f-a8df7a1c8ac3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{RST_SW}" output
+			(at 184.15 72.39 0)
+			(uuid "146cfc34-35af-4933-9c9b-864e2d484d2e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -1288,7 +1378,7 @@
 			)
 		)
 		(pin "DDI_B_HDP" input
-			(at 217.17 49.53 180)
+			(at 217.17 76.2 180)
 			(uuid "8120995e-cc88-4793-a3c7-2cff5e517994")
 			(effects
 				(font
@@ -1298,7 +1388,7 @@
 			)
 		)
 		(pin "DDI_B_ODC_SCL" output
-			(at 217.17 52.07 180)
+			(at 217.17 78.74 180)
 			(uuid "fd091aa2-c871-4706-8ff9-daeba54de1c9")
 			(effects
 				(font
@@ -1308,7 +1398,7 @@
 			)
 		)
 		(pin "DDI_B_ODC_SDA" bidirectional
-			(at 217.17 54.61 180)
+			(at 217.17 81.28 180)
 			(uuid "b21322f8-040f-44fd-830d-a7e0e6354111")
 			(effects
 				(font
@@ -1318,7 +1408,7 @@
 			)
 		)
 		(pin "DDI_B_TX0+" output
-			(at 217.17 58.42 180)
+			(at 217.17 85.09 180)
 			(uuid "c99ec79e-c1e2-470b-8b4e-bb204efe5acb")
 			(effects
 				(font
@@ -1328,7 +1418,7 @@
 			)
 		)
 		(pin "DDI_B_TX0-" output
-			(at 217.17 60.96 180)
+			(at 217.17 87.63 180)
 			(uuid "94630de4-1d9e-47a5-af8c-d108764bccaa")
 			(effects
 				(font
@@ -1338,7 +1428,7 @@
 			)
 		)
 		(pin "DDI_B_TX1+" output
-			(at 217.17 64.77 180)
+			(at 217.17 91.44 180)
 			(uuid "a5fad6bc-d5bd-4650-80cb-47bedb6c5fe3")
 			(effects
 				(font
@@ -1348,7 +1438,7 @@
 			)
 		)
 		(pin "DDI_B_TX1-" output
-			(at 217.17 67.31 180)
+			(at 217.17 93.98 180)
 			(uuid "b85773ea-bca3-4480-8f44-fe770c3639cd")
 			(effects
 				(font
@@ -1358,7 +1448,7 @@
 			)
 		)
 		(pin "DDI_B_TX2+" output
-			(at 217.17 71.12 180)
+			(at 217.17 97.79 180)
 			(uuid "16ea0c9e-2adc-4e63-ba4f-2b80604d522e")
 			(effects
 				(font
@@ -1368,7 +1458,7 @@
 			)
 		)
 		(pin "DDI_B_TX2-" output
-			(at 217.17 73.66 180)
+			(at 217.17 100.33 180)
 			(uuid "240a68ac-98cf-4796-8599-7b7aab39f2c1")
 			(effects
 				(font
@@ -1378,7 +1468,7 @@
 			)
 		)
 		(pin "DDI_B_TX3+" output
-			(at 217.17 77.47 180)
+			(at 217.17 104.14 180)
 			(uuid "5e756476-bf81-44da-9cda-25ef27a8787e")
 			(effects
 				(font
@@ -1388,7 +1478,7 @@
 			)
 		)
 		(pin "DDI_B_TX3-" output
-			(at 217.17 80.01 180)
+			(at 217.17 106.68 180)
 			(uuid "c71ceb48-7f33-42c7-852b-51908911aaad")
 			(effects
 				(font
@@ -1398,7 +1488,7 @@
 			)
 		)
 		(pin "FAN_1_PWM" output
-			(at 217.17 83.82 180)
+			(at 217.17 110.49 180)
 			(uuid "45b69fa0-663c-41c5-acf9-a334f970c048")
 			(effects
 				(font
@@ -1408,7 +1498,7 @@
 			)
 		)
 		(pin "FAN_1_TAC" input
-			(at 217.17 86.36 180)
+			(at 217.17 113.03 180)
 			(uuid "eedb2253-a5ef-44e1-b6e9-b76e58d8a461")
 			(effects
 				(font
@@ -1418,7 +1508,7 @@
 			)
 		)
 		(pin "GPP_D0" bidirectional
-			(at 217.17 90.17 180)
+			(at 217.17 116.84 180)
 			(uuid "b305ec6c-707d-4275-86d3-2421d380e03b")
 			(effects
 				(font
@@ -1428,7 +1518,7 @@
 			)
 		)
 		(pin "GPP_D1" bidirectional
-			(at 217.17 92.71 180)
+			(at 217.17 119.38 180)
 			(uuid "0ba25d2c-f8f5-4298-b0a3-792367a8bfad")
 			(effects
 				(font
@@ -1438,7 +1528,7 @@
 			)
 		)
 		(pin "GPP_D2" bidirectional
-			(at 217.17 96.52 180)
+			(at 217.17 123.19 180)
 			(uuid "92b85d9d-74a7-41bd-a99c-85a6cb88894b")
 			(effects
 				(font
@@ -1448,7 +1538,7 @@
 			)
 		)
 		(pin "GPP_D3" bidirectional
-			(at 217.17 99.06 180)
+			(at 217.17 125.73 180)
 			(uuid "dacab930-7df4-4e24-a2b0-f16ea93d7ed6")
 			(effects
 				(font
@@ -1458,7 +1548,7 @@
 			)
 		)
 		(pin "HSIO_0_RX+" input
-			(at 217.17 102.87 180)
+			(at 217.17 129.54 180)
 			(uuid "a92e7b05-aec5-42c5-9ba6-c825bd8c177a")
 			(effects
 				(font
@@ -1468,7 +1558,7 @@
 			)
 		)
 		(pin "HSIO_0_RX-" input
-			(at 217.17 105.41 180)
+			(at 217.17 132.08 180)
 			(uuid "ca87b46a-fc21-40f3-8faa-f9b70f55d818")
 			(effects
 				(font
@@ -1478,7 +1568,7 @@
 			)
 		)
 		(pin "HSIO_0_TX+" output
-			(at 217.17 109.22 180)
+			(at 217.17 135.89 180)
 			(uuid "d9090459-6e17-488d-bd34-f12c316c7910")
 			(effects
 				(font
@@ -1488,7 +1578,7 @@
 			)
 		)
 		(pin "HSIO_0_TX-" output
-			(at 217.17 111.76 180)
+			(at 217.17 138.43 180)
 			(uuid "5b5cc9d6-3349-4b41-8365-9f4ed45d3f6f")
 			(effects
 				(font
@@ -1498,7 +1588,7 @@
 			)
 		)
 		(pin "HSIO_1_RX+" input
-			(at 217.17 115.57 180)
+			(at 217.17 142.24 180)
 			(uuid "297a3b4d-a4ea-4777-8461-e70d7be770d0")
 			(effects
 				(font
@@ -1508,7 +1598,7 @@
 			)
 		)
 		(pin "HSIO_1_RX-" input
-			(at 217.17 118.11 180)
+			(at 217.17 144.78 180)
 			(uuid "1cd0ea0e-f583-4235-8b64-c5d74a8cbb12")
 			(effects
 				(font
@@ -1518,7 +1608,7 @@
 			)
 		)
 		(pin "HSIO_1_TX+" output
-			(at 217.17 121.92 180)
+			(at 217.17 148.59 180)
 			(uuid "7405498b-adcb-4dd5-a1f2-14f5368ff544")
 			(effects
 				(font
@@ -1528,7 +1618,7 @@
 			)
 		)
 		(pin "HSIO_1_TX-" output
-			(at 217.17 124.46 180)
+			(at 217.17 151.13 180)
 			(uuid "9680c8a1-43da-4641-aa9d-c04173bac5f8")
 			(effects
 				(font
@@ -1538,7 +1628,7 @@
 			)
 		)
 		(pin "HSIO_2_RX+" input
-			(at 217.17 128.27 180)
+			(at 217.17 154.94 180)
 			(uuid "b03a2264-3e3c-4cd2-93a8-eb26d18449c5")
 			(effects
 				(font
@@ -1548,7 +1638,7 @@
 			)
 		)
 		(pin "HSIO_2_RX-" input
-			(at 217.17 130.81 180)
+			(at 217.17 157.48 180)
 			(uuid "97f9b86b-d9d9-4fff-ae3c-194a2a9e9166")
 			(effects
 				(font
@@ -1558,7 +1648,7 @@
 			)
 		)
 		(pin "HSIO_2_TX+" output
-			(at 217.17 134.62 180)
+			(at 217.17 161.29 180)
 			(uuid "22c754a5-68bb-48ed-bdb6-1209838bec6d")
 			(effects
 				(font
@@ -1568,7 +1658,7 @@
 			)
 		)
 		(pin "HSIO_2_TX-" output
-			(at 217.17 137.16 180)
+			(at 217.17 163.83 180)
 			(uuid "31db2173-2317-4d54-b5ac-33a02e8af307")
 			(effects
 				(font
@@ -1578,7 +1668,7 @@
 			)
 		)
 		(pin "HSIO_3_RX+" input
-			(at 217.17 140.97 180)
+			(at 217.17 167.64 180)
 			(uuid "865e5c48-3997-4ab5-8761-009d0c2643d0")
 			(effects
 				(font
@@ -1588,7 +1678,7 @@
 			)
 		)
 		(pin "HSIO_3_RX-" input
-			(at 217.17 143.51 180)
+			(at 217.17 170.18 180)
 			(uuid "fb4b1b18-0e75-475f-946c-e1d85268fb7d")
 			(effects
 				(font
@@ -1598,7 +1688,7 @@
 			)
 		)
 		(pin "HSIO_3_TX+" output
-			(at 217.17 147.32 180)
+			(at 217.17 173.99 180)
 			(uuid "6179825d-99d0-4e7e-8e6c-33c0f49accbc")
 			(effects
 				(font
@@ -1608,7 +1698,7 @@
 			)
 		)
 		(pin "HSIO_3_TX-" output
-			(at 217.17 149.86 180)
+			(at 217.17 176.53 180)
 			(uuid "d9ad0caf-e9d3-4f11-ab40-0f9b2d08d3c1")
 			(effects
 				(font
@@ -1618,7 +1708,7 @@
 			)
 		)
 		(pin "HSIO_6_RX+" input
-			(at 217.17 153.67 180)
+			(at 217.17 180.34 180)
 			(uuid "0a095820-e0c3-4081-84be-615a15b686a9")
 			(effects
 				(font
@@ -1628,7 +1718,7 @@
 			)
 		)
 		(pin "HSIO_6_RX-" input
-			(at 217.17 156.21 180)
+			(at 217.17 182.88 180)
 			(uuid "1176a213-0174-43bc-818e-cba4522c8938")
 			(effects
 				(font
@@ -1638,7 +1728,7 @@
 			)
 		)
 		(pin "HSIO_6_TX+" output
-			(at 217.17 160.02 180)
+			(at 217.17 186.69 180)
 			(uuid "3fa6290e-a050-4a94-812d-9486e48026ae")
 			(effects
 				(font
@@ -1648,7 +1738,7 @@
 			)
 		)
 		(pin "HSIO_6_TX-" output
-			(at 217.17 162.56 180)
+			(at 217.17 189.23 180)
 			(uuid "0e260e68-b749-4198-bec3-f2b96eb63180")
 			(effects
 				(font
@@ -1658,7 +1748,7 @@
 			)
 		)
 		(pin "HSIO_8_RX+" input
-			(at 217.17 166.37 180)
+			(at 217.17 193.04 180)
 			(uuid "157d1b81-8808-43cf-96ed-ad1c4c8ca74c")
 			(effects
 				(font
@@ -1668,7 +1758,7 @@
 			)
 		)
 		(pin "HSIO_8_RX-" input
-			(at 217.17 168.91 180)
+			(at 217.17 195.58 180)
 			(uuid "47a8406a-36fc-41fe-ac99-103bc7e87d65")
 			(effects
 				(font
@@ -1678,7 +1768,7 @@
 			)
 		)
 		(pin "HSIO_8_TX+" output
-			(at 217.17 172.72 180)
+			(at 217.17 199.39 180)
 			(uuid "2e8e50ec-83b9-4b34-b69b-1b7bce841f14")
 			(effects
 				(font
@@ -1688,7 +1778,7 @@
 			)
 		)
 		(pin "HSIO_8_TX-" output
-			(at 217.17 175.26 180)
+			(at 217.17 201.93 180)
 			(uuid "32de092f-3223-4ec8-bd94-3169f5af1b11")
 			(effects
 				(font
@@ -1698,7 +1788,7 @@
 			)
 		)
 		(pin "HSIO_9_RX+" input
-			(at 217.17 179.07 180)
+			(at 217.17 205.74 180)
 			(uuid "99704d2e-9100-4fd8-a4a5-dce8f2b35096")
 			(effects
 				(font
@@ -1708,7 +1798,7 @@
 			)
 		)
 		(pin "HSIO_9_RX-" input
-			(at 217.17 181.61 180)
+			(at 217.17 208.28 180)
 			(uuid "9c08e5de-bd05-4f28-b910-55e8b4a8cd3a")
 			(effects
 				(font
@@ -1718,7 +1808,7 @@
 			)
 		)
 		(pin "HSIO_9_TX+" output
-			(at 217.17 185.42 180)
+			(at 217.17 212.09 180)
 			(uuid "290c3b5b-f065-41a7-85c1-f3bb0100131c")
 			(effects
 				(font
@@ -1728,7 +1818,7 @@
 			)
 		)
 		(pin "HSIO_9_TX-" output
-			(at 217.17 187.96 180)
+			(at 217.17 214.63 180)
 			(uuid "98c578c2-b9d1-4a20-82a9-319ac3e3416b")
 			(effects
 				(font
@@ -1738,7 +1828,7 @@
 			)
 		)
 		(pin "HSIO_10_RX+" input
-			(at 217.17 191.77 180)
+			(at 217.17 218.44 180)
 			(uuid "e348017a-baf3-4477-8d13-43a6ff0c7623")
 			(effects
 				(font
@@ -1748,7 +1838,7 @@
 			)
 		)
 		(pin "HSIO_10_RX-" input
-			(at 217.17 194.31 180)
+			(at 217.17 220.98 180)
 			(uuid "abd099ce-408a-462e-95f6-b308a508bd18")
 			(effects
 				(font
@@ -1758,7 +1848,7 @@
 			)
 		)
 		(pin "HSIO_10_TX+" output
-			(at 217.17 198.12 180)
+			(at 217.17 224.79 180)
 			(uuid "1eea2781-8bd3-4e42-979a-b89c972c3db1")
 			(effects
 				(font
@@ -1768,7 +1858,7 @@
 			)
 		)
 		(pin "HSIO_10_TX-" output
-			(at 217.17 200.66 180)
+			(at 217.17 227.33 180)
 			(uuid "b4468131-8c55-4df0-a57f-75042815573f")
 			(effects
 				(font
@@ -1778,7 +1868,7 @@
 			)
 		)
 		(pin "HSIO_11_RX+" input
-			(at 217.17 204.47 180)
+			(at 217.17 231.14 180)
 			(uuid "604f7b0f-4d92-4da6-b6f6-80ddb4733cad")
 			(effects
 				(font
@@ -1788,7 +1878,7 @@
 			)
 		)
 		(pin "HSIO_11_RX-" input
-			(at 217.17 207.01 180)
+			(at 217.17 233.68 180)
 			(uuid "4acaa37d-eb32-4b39-a51b-7dbe5c6d3459")
 			(effects
 				(font
@@ -1798,7 +1888,7 @@
 			)
 		)
 		(pin "HSIO_11_TX+" output
-			(at 217.17 210.82 180)
+			(at 217.17 237.49 180)
 			(uuid "b92dbd8e-d4a9-4b12-b367-49632af919ab")
 			(effects
 				(font
@@ -1808,7 +1898,7 @@
 			)
 		)
 		(pin "HSIO_11_TX-" output
-			(at 217.17 213.36 180)
+			(at 217.17 240.03 180)
 			(uuid "58986f5b-f31b-431c-adaf-af62efc61dcf")
 			(effects
 				(font
@@ -1818,7 +1908,7 @@
 			)
 		)
 		(pin "I2C2_SCL" output
-			(at 217.17 217.17 180)
+			(at 217.17 243.84 180)
 			(uuid "acb389f7-7528-43f9-a346-b8c3d76f1939")
 			(effects
 				(font
@@ -1828,7 +1918,7 @@
 			)
 		)
 		(pin "I2C2_SDA" bidirectional
-			(at 217.17 219.71 180)
+			(at 217.17 246.38 180)
 			(uuid "005b91e3-5cdf-4abc-9c68-3399f32109a8")
 			(effects
 				(font
@@ -1838,7 +1928,7 @@
 			)
 		)
 		(pin "I2C3_SCL" output
-			(at 217.17 223.52 180)
+			(at 217.17 250.19 180)
 			(uuid "5d161921-69b6-44ab-8707-c2405ba563c6")
 			(effects
 				(font
@@ -1848,7 +1938,7 @@
 			)
 		)
 		(pin "I2C3_SDA" bidirectional
-			(at 217.17 226.06 180)
+			(at 217.17 252.73 180)
 			(uuid "1d30988e-60d4-4680-8d2b-332cc6c145f6")
 			(effects
 				(font
@@ -1858,7 +1948,7 @@
 			)
 		)
 		(pin "I2C4_SCL" output
-			(at 217.17 229.87 180)
+			(at 217.17 256.54 180)
 			(uuid "e5269073-c09c-45dd-a5f1-8198c60942dc")
 			(effects
 				(font
@@ -1868,7 +1958,7 @@
 			)
 		)
 		(pin "I2C4_SDA" bidirectional
-			(at 217.17 232.41 180)
+			(at 217.17 259.08 180)
 			(uuid "ae9600fd-b15d-4caf-bc11-b8c5fd34e8c5")
 			(effects
 				(font
@@ -1878,7 +1968,7 @@
 			)
 		)
 		(pin "I2C5_SCL" output
-			(at 217.17 236.22 180)
+			(at 217.17 262.89 180)
 			(uuid "449c15bb-4494-44c0-b285-770a2f2c3be8")
 			(effects
 				(font
@@ -1888,7 +1978,7 @@
 			)
 		)
 		(pin "I2C5_SDA" bidirectional
-			(at 217.17 238.76 180)
+			(at 217.17 265.43 180)
 			(uuid "bca513bd-4150-4a05-8fb3-32e90fd76757")
 			(effects
 				(font
@@ -1898,7 +1988,7 @@
 			)
 		)
 		(pin "REFCLK_0+" output
-			(at 217.17 242.57 180)
+			(at 217.17 269.24 180)
 			(uuid "21099b00-3ef7-4c94-80ec-8f75f9c0530b")
 			(effects
 				(font
@@ -1908,7 +1998,7 @@
 			)
 		)
 		(pin "REFCLK_0-" output
-			(at 217.17 245.11 180)
+			(at 217.17 271.78 180)
 			(uuid "0a2d343d-19e4-4445-a1d9-36fee0bfe498")
 			(effects
 				(font
@@ -1918,7 +2008,7 @@
 			)
 		)
 		(pin "REFCLK_2+" output
-			(at 217.17 248.92 180)
+			(at 217.17 275.59 180)
 			(uuid "e3c73479-b780-4777-83c2-2064c6618676")
 			(effects
 				(font
@@ -1928,7 +2018,7 @@
 			)
 		)
 		(pin "REFCLK_2-" output
-			(at 217.17 251.46 180)
+			(at 217.17 278.13 180)
 			(uuid "327449ec-46a9-49a7-876f-710f0b77ace0")
 			(effects
 				(font
@@ -1938,7 +2028,7 @@
 			)
 		)
 		(pin "REFCLK_3+" output
-			(at 217.17 255.27 180)
+			(at 217.17 281.94 180)
 			(uuid "d6577c49-e444-4396-97bf-0b265caa358d")
 			(effects
 				(font
@@ -1948,7 +2038,7 @@
 			)
 		)
 		(pin "REFCLK_3-" output
-			(at 217.17 257.81 180)
+			(at 217.17 284.48 180)
 			(uuid "a7fa3e1d-6380-4c88-a76b-d05d0dc77c73")
 			(effects
 				(font
@@ -1958,7 +2048,7 @@
 			)
 		)
 		(pin "REFCLK_4+" output
-			(at 217.17 261.62 180)
+			(at 217.17 288.29 180)
 			(uuid "37277e8b-ad01-4f28-a4b2-c8372f0302ec")
 			(effects
 				(font
@@ -1968,7 +2058,7 @@
 			)
 		)
 		(pin "REFCLK_4-" output
-			(at 217.17 264.16 180)
+			(at 217.17 290.83 180)
 			(uuid "7347fb01-ce78-45b0-b012-e2bd234a8b4d")
 			(effects
 				(font
@@ -1978,7 +2068,7 @@
 			)
 		)
 		(pin "SLS_S3" output
-			(at 217.17 267.97 180)
+			(at 217.17 48.26 180)
 			(uuid "3f5c3f78-7c9f-4214-ae79-91b8b312cfd4")
 			(effects
 				(font
@@ -1988,7 +2078,7 @@
 			)
 		)
 		(pin "SOC_UART0_RX" input
-			(at 217.17 270.51 180)
+			(at 217.17 297.18 180)
 			(uuid "dc312826-c389-4c75-8d9a-50ea11dae795")
 			(effects
 				(font
@@ -1998,7 +2088,7 @@
 			)
 		)
 		(pin "SOC_UART0_TX" output
-			(at 217.17 274.32 180)
+			(at 217.17 300.99 180)
 			(uuid "0992de35-6a49-425d-a027-5bfd13ddeeba")
 			(effects
 				(font
@@ -2008,7 +2098,7 @@
 			)
 		)
 		(pin "SOC_UART1_RX" input
-			(at 217.17 276.86 180)
+			(at 217.17 303.53 180)
 			(uuid "cd92a1cc-3703-4989-b230-79ec74eed3dd")
 			(effects
 				(font
@@ -2018,7 +2108,7 @@
 			)
 		)
 		(pin "SOC_UART1_TX" output
-			(at 217.17 281.94 180)
+			(at 217.17 308.61 180)
 			(uuid "599ba064-3c8e-4fae-b6bf-85dbc6e65425")
 			(effects
 				(font
@@ -2028,7 +2118,7 @@
 			)
 		)
 		(pin "SOC_UART2_RX" input
-			(at 217.17 284.48 180)
+			(at 217.17 311.15 180)
 			(uuid "71c6fd3d-80b7-4627-9481-a0ed8e00452d")
 			(effects
 				(font
@@ -2038,7 +2128,7 @@
 			)
 		)
 		(pin "SOC_UART2_TX" output
-			(at 217.17 288.29 180)
+			(at 217.17 314.96 180)
 			(uuid "2b679d36-1d3d-4412-8563-b521b7cfbbfa")
 			(effects
 				(font
@@ -2048,7 +2138,7 @@
 			)
 		)
 		(pin "SUSCLK_WIFI" input
-			(at 217.17 290.83 180)
+			(at 217.17 317.5 180)
 			(uuid "348dd1e1-fbb3-42a4-ac25-712a2d59c58f")
 			(effects
 				(font
@@ -2178,7 +2268,7 @@
 			)
 		)
 		(pin "~{PWR_LED}{slash}~{PSON}" output
-			(at 217.17 331.47 180)
+			(at 217.17 55.88 180)
 			(uuid "07947d15-eb57-4a38-8ded-869716c94ed2")
 			(effects
 				(font
@@ -2188,7 +2278,7 @@
 			)
 		)
 		(pin "~{PWR_SW}" input
-			(at 217.17 334.01 180)
+			(at 217.17 64.77 180)
 			(uuid "21d3b1fd-6b09-4ba0-a5ff-ad3a285897e9")
 			(effects
 				(font
@@ -2198,7 +2288,7 @@
 			)
 		)
 		(pin "~{RST_SW}" input
-			(at 217.17 337.82 180)
+			(at 217.17 72.39 180)
 			(uuid "d7131184-058c-439c-840e-b8d5f7453c6e")
 			(effects
 				(font
