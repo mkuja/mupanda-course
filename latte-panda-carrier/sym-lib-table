@@ -2,4 +2,6 @@
   (version 7)
   (lib (name "latte_mcu")(type "KiCad")(uri "${KIPRJMOD}/Libraries/MCU_Module_LattePanda.kicad_sym")(options "")(descr ""))
   (lib (name "latte_hdj")(type "KiCad")(uri "${KIPRJMOD}/A_HDJ_Library.kicad_sym")(options "")(descr ""))
+  (lib (name "latte_hdj2")(type "KiCad")(uri "${KIPRJMOD}/Libraries/A_HDJ_Library.kicad_sym")(options "")(descr "")(disabled)(hidden))
+  (lib (name "latte_hdj3")(type "KiCad")(uri "/Users/mikko/src/LattePanda-Mu/Electricals/Examples/[DFR1142]Lite Carrier for LattePanda Mu/A_HDJ_Library.kicad_sym")(options "")(descr ""))
 )
