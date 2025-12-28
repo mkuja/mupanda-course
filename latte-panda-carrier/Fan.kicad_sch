@@ -2509,7 +2509,7 @@
 			)
 			(justify right)
 		)
-		(uuid "0e2c057b-02dc-4d18-8d67-fb1efaa9d7d1")
+		(uuid "0e2c057b-02dc-4d18-8d67-fb1efaa9d7d2")
 	)
 	(hierarchical_label "FAN_2_PWM"
 		(shape input)
