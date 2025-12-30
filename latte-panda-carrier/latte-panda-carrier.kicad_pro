@@ -234,6 +234,10 @@
       [
         "pin_to_pin|825500|1854200|6d5823ae-edd1-4c23-beb1-c1f4bb1ab268|d48c1bfc-8066-45ef-bc58-203261ef0454|/9ba2df7d-1c0f-41ea-bb38-2c3f31e14521/723302d9-c268-402b-9d89-874b935c2b0c|/9ba2df7d-1c0f-41ea-bb38-2c3f31e14521/723302d9-c268-402b-9d89-874b935c2b0c|/9ba2df7d-1c0f-41ea-bb38-2c3f31e14521/723302d9-c268-402b-9d89-874b935c2b0c",
         "The other flag has `Do not populate` -attribute"
+      ],
+      [
+        "power_pin_not_driven|1358900|444500|6f4afb84-66f0-4655-bef9-9144534e4a85|00000000-0000-0000-0000-000000000000|/9ba2df7d-1c0f-41ea-bb38-2c3f31e14521/4a1bac12-9a05-4cda-9b33-fbf4f54c95f3|/9ba2df7d-1c0f-41ea-bb38-2c3f31e14521/4a1bac12-9a05-4cda-9b33-fbf4f54c95f3|",
+        "Instructor left this error unresolved. It will not be routed, so I will leave it as is."
       ]
     ],
     "meta": {
