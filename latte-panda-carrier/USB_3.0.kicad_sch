@@ -2987,16 +2987,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 46.99) (xy 58.42 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d85ac3d-0f32-488e-81e1-06998999241a")
-	)
-	(wire
-		(pts
 			(xy 102.87 57.15) (xy 111.76 57.15)
 		)
 		(stroke
@@ -3027,7 +3017,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 46.99) (xy 33.02 52.07)
+			(xy 39.37 46.99) (xy 39.37 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3037,7 +3027,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 36.83) (xy 33.02 41.91)
+			(xy 39.37 36.83) (xy 39.37 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3084,6 +3074,16 @@
 			(type default)
 		)
 		(uuid "36cfacb4-0f1a-4103-b679-7a9ece7007b6")
+	)
+	(wire
+		(pts
+			(xy 64.77 46.99) (xy 64.77 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "383618d7-badb-46bb-842f-e3081f48d344")
 	)
 	(wire
 		(pts
@@ -3227,7 +3227,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 36.83) (xy 58.42 41.91)
+			(xy 64.77 36.83) (xy 64.77 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3635,6 +3635,16 @@
 		)
 		(uuid "302bdb56-e0f5-4ecc-a2d3-1beeab1765eb")
 	)
+	(label "CON_USB3_SSRX_N"
+		(at 39.37 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "35f13823-ac2f-49df-90b5-2ad45581f42d")
+	)
 	(label "CON_USB2_D_P"
 		(at 100.33 172.72 180)
 		(effects
@@ -3644,6 +3654,16 @@
 			(justify right bottom)
 		)
 		(uuid "3dadfc8c-b672-4b3b-9bef-25f6d5d4c8b5")
+	)
+	(label "CON_USB3_SSTX_N"
+		(at 39.37 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "449d1c39-3b80-470f-85a8-6648c0d32099")
 	)
 	(label "CON_USB4_D_N"
 		(at 144.78 91.44 180)
@@ -3715,6 +3735,36 @@
 		)
 		(uuid "4ee69659-61d6-417e-87b9-39581c700717")
 	)
+	(label "CON_USB4_SSTX_P"
+		(at 64.77 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "579e7bb7-e660-4f89-9fd0-caad70cce8d7")
+	)
+	(label "CON_USB3_SSRX_P"
+		(at 39.37 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7029fd6c-c32d-4e6d-930b-2aaea9dadf51")
+	)
+	(label "CON_USB4_SSRX_P"
+		(at 64.77 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8d998f19-8506-4628-9b95-08c441747326")
+	)
 	(label "CON_USB3_SSRX_N"
 		(at 144.78 46.99 180)
 		(effects
@@ -3735,7 +3785,7 @@
 		)
 		(uuid "a2f2c36f-f357-42d4-81e4-6b9e084f8007")
 	)
-	(label "CON_USB1_D_P"
+	(label "CON_USB3_D_P"
 		(at 100.33 149.86 180)
 		(effects
 			(font
@@ -3744,6 +3794,16 @@
 			(justify right bottom)
 		)
 		(uuid "a55c3c8a-d5b0-4c49-b998-55fb119344e2")
+	)
+	(label "CON_USB4_SSRX_N"
+		(at 64.77 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3bf5a2e-61e3-414e-bc14-b043453a1f93")
 	)
 	(label "CON_USB3_SSRX_P"
 		(at 144.78 49.53 180)
@@ -3765,6 +3825,16 @@
 		)
 		(uuid "bd39f070-c2d6-47c3-ad60-be9774fcbd5b")
 	)
+	(label "CON_USB3_SSTX_P"
+		(at 39.37 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d70bd217-3ac0-4bfd-9b5d-a8b24a57aa97")
+	)
 	(label "CON_USB4_D_P"
 		(at 144.78 93.98 180)
 		(effects
@@ -3785,7 +3855,17 @@
 		)
 		(uuid "e2cc6199-06fc-43f5-8221-8918cbc81a33")
 	)
-	(label "CON_USB1_D_P"
+	(label "CON_USB4_SSTX_N"
+		(at 64.77 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f1e3339d-3d4c-4d2c-a216-cab64866229b")
+	)
+	(label "CON_USB3_D_P"
 		(at 144.78 41.91 180)
 		(effects
 			(font
@@ -3815,28 +3895,6 @@
 		)
 		(uuid "fb95fd70-01af-4ae2-978a-803338311a3f")
 	)
-	(hierarchical_label "USB_4_SSRT_P"
-		(shape output)
-		(at 64.77 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "104f5a4f-2726-454c-9f8e-535e73b1aeb6")
-	)
-	(hierarchical_label "USB_3_SSTX_P"
-		(shape bidirectional)
-		(at 39.37 95.25 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "34f9a6c2-fbd8-4c6e-9b7f-2ee21a408b9f")
-	)
 	(hierarchical_label "USB_2_P3+"
 		(shape bidirectional)
 		(at 236.22 87.63 0)
@@ -3859,39 +3917,6 @@
 		)
 		(uuid "4cf42620-17fb-483c-ade8-51dbd2efa7ae")
 	)
-	(hierarchical_label "USB_3_SSTX_N"
-		(shape bidirectional)
-		(at 39.37 100.33 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "68613e95-fadf-4c67-ac16-ca9fa6565117")
-	)
-	(hierarchical_label "USB_4_SSRT_N"
-		(shape output)
-		(at 64.77 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6d00a5af-2a35-4440-97a3-22e4d43d3084")
-	)
-	(hierarchical_label "USB_4_SSRX_P"
-		(shape input)
-		(at 58.42 41.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "79d9c41a-48a2-4f54-bc0c-323801f9f159")
-	)
 	(hierarchical_label "USB_3_SSRX_N"
 		(shape bidirectional)
 		(at 102.87 46.99 180)
@@ -3903,18 +3928,7 @@
 		)
 		(uuid "7bb23217-27e2-490c-92b6-d4b5abdebc1b")
 	)
-	(hierarchical_label "USB_4_SSRX_P"
-		(shape input)
-		(at 104.14 101.6 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "99ec5a3e-2a70-4bbb-903f-bac1c7dcfbf8")
-	)
-	(hierarchical_label "USB_4_SSRT_N"
+	(hierarchical_label "USB_4_SSTX_N"
 		(shape output)
 		(at 104.14 106.68 180)
 		(effects
@@ -3936,9 +3950,9 @@
 		)
 		(uuid "99ec5a3e-2a70-4bbb-903f-bac1c7dcfbf8")
 	)
-	(hierarchical_label "USB_2_P2+"
-		(shape bidirectional)
-		(at 104.14 93.98 180)
+	(hierarchical_label "USB_4_SSRX_P"
+		(shape input)
+		(at 104.14 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3958,7 +3972,18 @@
 		)
 		(uuid "99ec5a3e-2a70-4bbb-903f-bac1c7dcfbf8")
 	)
-	(hierarchical_label "USB_4_SSRT_P"
+	(hierarchical_label "USB_2_P1+"
+		(shape bidirectional)
+		(at 104.14 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "99ec5a3e-2a70-4bbb-903f-bac1c7dcfbf8")
+	)
+	(hierarchical_label "USB_4_SSTX_P"
 		(shape output)
 		(at 104.14 109.22 180)
 		(effects
@@ -3968,17 +3993,6 @@
 			(justify right)
 		)
 		(uuid "99ec5a3e-2a70-4bbb-903f-bac1c7dcfbf8")
-	)
-	(hierarchical_label "USB_3_SSRX_N"
-		(shape bidirectional)
-		(at 33.02 46.99 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9f540516-acdd-430e-9b39-6591445a2287")
 	)
 	(hierarchical_label "USB_3_SSTX_P"
 		(shape bidirectional)
@@ -4002,18 +4016,7 @@
 		)
 		(uuid "b07cf068-4216-44f0-a7ca-e0591bbf77d4")
 	)
-	(hierarchical_label "USB_4_SSRX_N"
-		(shape input)
-		(at 58.42 46.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bec4b111-13fb-4eac-96d6-66a30265b42b")
-	)
-	(hierarchical_label "USB_2_P5+"
+	(hierarchical_label "USB_2_P2+"
 		(shape bidirectional)
 		(at 102.87 39.37 180)
 		(effects
@@ -4024,7 +4027,7 @@
 		)
 		(uuid "c88e92a5-f677-4d0c-8410-af7662e280da")
 	)
-	(hierarchical_label "USB_2_P5-"
+	(hierarchical_label "USB_2_P2-"
 		(shape bidirectional)
 		(at 102.87 41.91 180)
 		(effects
@@ -4045,17 +4048,6 @@
 			(justify left)
 		)
 		(uuid "cee65b9f-886d-4218-8803-6177c24d2481")
-	)
-	(hierarchical_label "USB_3_SSRX_P"
-		(shape bidirectional)
-		(at 33.02 41.91 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cfc34bbf-a214-4311-8d16-3079dcc064a9")
 	)
 	(hierarchical_label "USB_2_P5-"
 		(shape bidirectional)
@@ -4078,6 +4070,17 @@
 			(justify right)
 		)
 		(uuid "e19a78f7-60f1-4e04-a343-f0947f1363a6")
+	)
+	(hierarchical_label "USB_2_P3-"
+		(shape bidirectional)
+		(at 228.6 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fd2538a8-beaf-46d9-ba8c-49b70fd3fca4")
 	)
 	(hierarchical_label "USB_2_P5+"
 		(shape bidirectional)
@@ -4104,17 +4107,6 @@
 	(hierarchical_label "USB_2_P5-"
 		(shape bidirectional)
 		(at 228.6 54.61 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fd2538a8-beaf-46d9-ba8c-49b70fd3fca4")
-	)
-	(hierarchical_label "USB_2_P3-"
-		(shape bidirectional)
-		(at 228.6 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5325,7 +5317,7 @@
 	)
 	(symbol
 		(lib_id "Power_Protection:D3V3XA4B10LP")
-		(at 45.72 44.45 0)
+		(at 52.07 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5334,7 +5326,7 @@
 		(fields_autoplaced yes)
 		(uuid "831b5a06-901f-492f-a276-ef120aab5e0f")
 		(property "Reference" "U3"
-			(at 45.72 31.75 0)
+			(at 52.07 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5342,7 +5334,7 @@
 			)
 		)
 		(property "Value" "D3V3XA4B10LP"
-			(at 45.72 34.29 0)
+			(at 52.07 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5350,7 +5342,7 @@
 			)
 		)
 		(property "Footprint" "A_HDJ_Library:Diodes_UDFN-10_1.0x2.5mm_P0.5mm"
-			(at 21.59 54.61 0)
+			(at 27.94 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5359,7 +5351,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/D3V3XA4B10LP.pdf"
-			(at 45.72 44.45 0)
+			(at 52.07 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5368,7 +5360,7 @@
 			)
 		)
 		(property "Description" "4-Channel Low Capacitance TVS Diode Array, DFN-10"
-			(at 45.72 44.45 0)
+			(at 52.07 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6403,7 +6395,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 45.72 57.15 0)
+		(at 52.07 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6411,7 +6403,7 @@
 		(dnp no)
 		(uuid "f6ddfc8b-615e-46ff-998f-6bdd219a5c45")
 		(property "Reference" "#PWR091"
-			(at 45.72 63.5 0)
+			(at 52.07 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6420,7 +6412,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 45.7199 60.96 90)
+			(at 52.0699 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6429,7 +6421,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 57.15 0)
+			(at 52.07 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6438,7 +6430,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 57.15 0)
+			(at 52.07 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6447,7 +6439,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 45.72 57.15 0)
+			(at 52.07 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)

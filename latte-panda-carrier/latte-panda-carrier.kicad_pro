@@ -238,6 +238,22 @@
       [
         "power_pin_not_driven|1358900|444500|6f4afb84-66f0-4655-bef9-9144534e4a85|00000000-0000-0000-0000-000000000000|/9ba2df7d-1c0f-41ea-bb38-2c3f31e14521/4a1bac12-9a05-4cda-9b33-fbf4f54c95f3|/9ba2df7d-1c0f-41ea-bb38-2c3f31e14521/4a1bac12-9a05-4cda-9b33-fbf4f54c95f3|",
         "Instructor left this error unresolved. It will not be routed, so I will leave it as is."
+      ],
+      [
+        "power_pin_not_driven|1473200|342900|96f6ccb0-2270-4548-92ae-cc18dcf1ec4d|00000000-0000-0000-0000-000000000000|/9ba2df7d-1c0f-41ea-bb38-2c3f31e14521/3a6e79bf-a576-4fe6-99f9-6ed5ab5e0b5d|/9ba2df7d-1c0f-41ea-bb38-2c3f31e14521/3a6e79bf-a576-4fe6-99f9-6ed5ab5e0b5d|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|1473200|863600|7fe64c41-e5a6-4c50-b2d2-4bf7cfb886dc|00000000-0000-0000-0000-000000000000|/9ba2df7d-1c0f-41ea-bb38-2c3f31e14521/3a6e79bf-a576-4fe6-99f9-6ed5ab5e0b5d|/9ba2df7d-1c0f-41ea-bb38-2c3f31e14521/3a6e79bf-a576-4fe6-99f9-6ed5ab5e0b5d|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|2489200|444500|e578cd6a-6b35-4fd2-8a89-3b3120ce1857|00000000-0000-0000-0000-000000000000|/9ba2df7d-1c0f-41ea-bb38-2c3f31e14521/3a6e79bf-a576-4fe6-99f9-6ed5ab5e0b5d|/9ba2df7d-1c0f-41ea-bb38-2c3f31e14521/3a6e79bf-a576-4fe6-99f9-6ed5ab5e0b5d|",
+        "It is driven by +5V, but via a fuse."
+      ],
+      [
+        "power_pin_not_driven|2489200|469900|d7d13068-53da-487e-ae38-843c33408511|00000000-0000-0000-0000-000000000000|/9ba2df7d-1c0f-41ea-bb38-2c3f31e14521/3a6e79bf-a576-4fe6-99f9-6ed5ab5e0b5d|/9ba2df7d-1c0f-41ea-bb38-2c3f31e14521/3a6e79bf-a576-4fe6-99f9-6ed5ab5e0b5d|",
+        ""
       ]
     ],
     "meta": {
