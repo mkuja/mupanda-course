@@ -3685,8 +3685,8 @@
 		)
 		(uuid "492a459d-d820-4047-ade1-fcb292b8ab06")
 	)
-	(label "CON_USB2_D_N"
-		(at 231.14 59.69 0)
+	(label "CON_USB1_D_P"
+		(at 231.14 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3705,8 +3705,8 @@
 		)
 		(uuid "4df26b02-3669-4dbc-b451-230ba47e7be9")
 	)
-	(label "CON_USB1_D_N"
-		(at 231.14 54.61 0)
+	(label "CON_USB2_D_N"
+		(at 231.14 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3715,8 +3715,8 @@
 		)
 		(uuid "4df26b02-3669-4dbc-b451-230ba47e7be9")
 	)
-	(label "CON_USB1_D_P"
-		(at 231.14 52.07 0)
+	(label "CON_USB1_D_N"
+		(at 231.14 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4071,9 +4071,20 @@
 		)
 		(uuid "e19a78f7-60f1-4e04-a343-f0947f1363a6")
 	)
-	(hierarchical_label "USB_2_P3-"
+	(hierarchical_label "USB_2_P3+"
 		(shape bidirectional)
-		(at 228.6 59.69 180)
+		(at 228.6 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fd2538a8-beaf-46d9-ba8c-49b70fd3fca4")
+	)
+	(hierarchical_label "USB_2_P5-"
+		(shape bidirectional)
+		(at 228.6 54.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4093,20 +4104,9 @@
 		)
 		(uuid "fd2538a8-beaf-46d9-ba8c-49b70fd3fca4")
 	)
-	(hierarchical_label "USB_2_P3+"
+	(hierarchical_label "USB_2_P3-"
 		(shape bidirectional)
-		(at 228.6 57.15 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fd2538a8-beaf-46d9-ba8c-49b70fd3fca4")
-	)
-	(hierarchical_label "USB_2_P5-"
-		(shape bidirectional)
-		(at 228.6 54.61 180)
+		(at 228.6 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)

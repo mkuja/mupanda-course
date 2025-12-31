@@ -254,6 +254,10 @@
       [
         "power_pin_not_driven|2489200|469900|d7d13068-53da-487e-ae38-843c33408511|00000000-0000-0000-0000-000000000000|/9ba2df7d-1c0f-41ea-bb38-2c3f31e14521/3a6e79bf-a576-4fe6-99f9-6ed5ab5e0b5d|/9ba2df7d-1c0f-41ea-bb38-2c3f31e14521/3a6e79bf-a576-4fe6-99f9-6ed5ab5e0b5d|",
         ""
+      ],
+      [
+        "power_pin_not_driven|3746500|381000|d393e09f-9a45-4c8d-87b8-adb014ecb105|00000000-0000-0000-0000-000000000000|/9ba2df7d-1c0f-41ea-bb38-2c3f31e14521/a59c56c5-907f-4457-bff0-25c26b2b0ffe|/9ba2df7d-1c0f-41ea-bb38-2c3f31e14521/a59c56c5-907f-4457-bff0-25c26b2b0ffe|",
+        "Driven by 5V_HDMI_VCC"
       ]
     ],
     "meta": {
