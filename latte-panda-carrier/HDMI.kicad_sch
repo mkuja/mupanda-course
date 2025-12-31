@@ -4396,6 +4396,16 @@
 		(uuid "0dc2e70b-5bb9-402b-96e4-8ae29f967e25")
 	)
 	(label "TMDS_D2+"
+		(at 307.34 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0e22b615-67a6-458d-9c92-6f0e13554b11")
+	)
+	(label "TMDS_D2+"
 		(at 180.34 34.29 180)
 		(effects
 			(font
@@ -4404,6 +4414,26 @@
 			(justify right bottom)
 		)
 		(uuid "0e568e8a-ae42-4184-aa1a-0ac4acd89c43")
+	)
+	(label "DDC_SDA"
+		(at 316.23 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1a789bd5-7226-4fb4-b50b-8fe61916b4a3")
+	)
+	(label "TMDS_D1+"
+		(at 307.34 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "32724711-6a55-4092-b46c-f6f92c1f7d65")
 	)
 	(label "TMDS_D1-"
 		(at 205.74 39.37 0)
@@ -4425,6 +4455,16 @@
 		)
 		(uuid "50c1c04f-b04e-4f63-9508-9af525594b76")
 	)
+	(label "TMDS_D1-"
+		(at 307.34 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5317fcfa-53e7-45f7-aede-4bf40c8afb50")
+	)
 	(label "TMDS_D0-"
 		(at 180.34 81.28 180)
 		(effects
@@ -4434,6 +4474,16 @@
 			(justify right bottom)
 		)
 		(uuid "687502a1-4fe2-4932-8a35-bba4b09f30f8")
+	)
+	(label "TMDS_CK-"
+		(at 307.34 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7797a906-8df2-4260-8c53-d3eb31e4825e")
 	)
 	(label "TMDS_CK-"
 		(at 205.74 81.28 0)
@@ -4455,18 +4505,18 @@
 		)
 		(uuid "83ebe1d7-6954-4c63-a677-e5c56aed0b8a")
 	)
-	(label "DDC_SCL"
-		(at 316.23 154.94 0)
+	(label "TMDS_D2-"
+		(at 307.34 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "96731823-f850-4755-b45e-9f73ce41d914")
+		(uuid "86b8ebd3-cf7b-46e4-aa3a-ae6d86791379")
 	)
-	(label "DDC_SDA"
-		(at 316.23 171.45 0)
+	(label "DDC_SCL"
+		(at 316.23 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4484,6 +4534,16 @@
 			(justify left bottom)
 		)
 		(uuid "970505f5-2886-46cf-8682-1e03f050100e")
+	)
+	(label "TMDS_CK+"
+		(at 307.34 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d3fe01f2-aa0f-4cc5-b09e-60387184f892")
 	)
 	(label "TMDS_D0-"
 		(at 307.34 58.42 0)
@@ -4503,67 +4563,29 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "de4b9317-d2cc-4805-b074-0e43f4cc8372")
+		(uuid "e8a323ee-b48d-41bd-9fb8-9f5c0bd80ba8")
 	)
-	(label "TMDS_CK-"
-		(at 307.34 63.5 0)
+	(hierarchical_label "DDI_B_TX3+"
+		(shape input)
+		(at 232.41 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "de4b9317-d2cc-4805-b074-0e43f4cc8372")
+		(uuid "09c513f8-0bdb-42e3-b416-f74c8ad69f4f")
 	)
-	(label "TMDS_CK+"
-		(at 307.34 60.96 0)
+	(hierarchical_label "DDI_B_TX1+"
+		(shape input)
+		(at 232.41 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "de4b9317-d2cc-4805-b074-0e43f4cc8372")
-	)
-	(label "TMDS_D1-"
-		(at 307.34 53.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "de4b9317-d2cc-4805-b074-0e43f4cc8372")
-	)
-	(label "TMDS_D2-"
-		(at 307.34 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "de4b9317-d2cc-4805-b074-0e43f4cc8372")
-	)
-	(label "TMDS_D1+"
-		(at 307.34 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "de4b9317-d2cc-4805-b074-0e43f4cc8372")
-	)
-	(label "TMDS_D2+"
-		(at 307.34 45.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "de4b9317-d2cc-4805-b074-0e43f4cc8372")
+		(uuid "206e6db3-c888-4d37-8ff2-570fa8f7964e")
 	)
 	(hierarchical_label "DDI_B_DDC_SDA"
 		(shape bidirectional)
@@ -4576,6 +4598,39 @@
 		)
 		(uuid "2213d658-117d-4901-9dd5-e7f1e28138b2")
 	)
+	(hierarchical_label "DDI_B_TX2+"
+		(shape input)
+		(at 232.41 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5e1cbfd9-bbd8-4921-80ca-d5dfd8f22e3e")
+	)
+	(hierarchical_label "DDI_B_TX0-"
+		(shape input)
+		(at 232.41 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6340cd2a-503f-481a-b5d3-467df7fc187b")
+	)
+	(hierarchical_label "DDI_B_TX3-"
+		(shape input)
+		(at 232.41 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "793693d3-0382-4236-b73b-4234ce38fa94")
+	)
 	(hierarchical_label "DDI_B_HPD"
 		(shape input)
 		(at 212.09 187.96 180)
@@ -4587,53 +4642,20 @@
 		)
 		(uuid "9aec3dc1-38c8-4d23-a155-8b3f7d13e98c")
 	)
-	(hierarchical_label "DDI_B_TX1-"
-		(shape input)
-		(at 232.41 53.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c7a93e5d-d2ea-48f5-9a52-e49cf8af50bd")
-	)
-	(hierarchical_label "DDI_B_TX3+"
-		(shape input)
-		(at 232.41 60.96 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c7a93e5d-d2ea-48f5-9a52-e49cf8af50bd")
-	)
-	(hierarchical_label "DDI_B_TX2+"
-		(shape input)
-		(at 232.41 55.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c7a93e5d-d2ea-48f5-9a52-e49cf8af50bd")
-	)
-	(hierarchical_label "DDI_B_TX1+"
-		(shape input)
-		(at 232.41 50.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c7a93e5d-d2ea-48f5-9a52-e49cf8af50bd")
-	)
 	(hierarchical_label "DDI_B_TX2-"
 		(shape input)
 		(at 232.41 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a39457c5-fa7c-4dbb-b4a3-d6d47a18a554")
+	)
+	(hierarchical_label "DDI_B_TX1-"
+		(shape input)
+		(at 232.41 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4651,29 +4673,7 @@
 			)
 			(justify right)
 		)
-		(uuid "c7a93e5d-d2ea-48f5-9a52-e49cf8af50bd")
-	)
-	(hierarchical_label "DDI_B_TX0-"
-		(shape input)
-		(at 232.41 48.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c7a93e5d-d2ea-48f5-9a52-e49cf8af50bd")
-	)
-	(hierarchical_label "DDI_B_TX3-"
-		(shape input)
-		(at 232.41 63.5 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c7a93e5d-d2ea-48f5-9a52-e49cf8af50bd")
+		(uuid "e4f2a8d7-c15c-4c31-9b4e-4995499cf6bc")
 	)
 	(hierarchical_label "DDI_B_DDC_SCL"
 		(shape output)

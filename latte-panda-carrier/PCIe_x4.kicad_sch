@@ -1812,6 +1812,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+12VA"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+12VA"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12VA\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+12VA_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12VA_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -2038,6 +2163,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 93.98 50.8)
@@ -2110,6 +2336,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b48786d9-37e6-4dc2-8e49-362093089d74")
+	)
+	(junction
+		(at 82.55 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc8f74d4-1631-45b3-9f33-075241e0a7cb")
+	)
+	(junction
+		(at 91.44 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c51ba6c1-8d79-417d-820c-a844b5e90693")
 	)
 	(junction
 		(at 104.14 38.1)
@@ -2259,7 +2497,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 38.1) (xy 93.98 38.1)
+			(xy 82.55 38.1) (xy 91.44 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2569,6 +2807,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 38.1) (xy 93.98 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3cbd7a2-4f75-45d8-8596-cf3612682b52")
+	)
+	(wire
+		(pts
 			(xy 138.43 40.64) (xy 140.97 40.64)
 		)
 		(stroke
@@ -2717,18 +2965,48 @@
 		)
 		(uuid "ff4e0ffe-5673-4b46-897c-d279b41a18da")
 	)
-	(label "PCIE30_TX1_P"
-		(at 105.41 92.71 0)
+	(label "PCIE30_TX2_P"
+		(at 105.41 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "9fbe6a4e-edb6-4473-b118-33f20a506fae")
+		(uuid "19a1d16f-fa21-4a70-96eb-5a136a197feb")
 	)
-	(label "PCIE30_TX2_P"
-		(at 105.41 97.79 0)
+	(label "PCIE30_TX0_N"
+		(at 105.41 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "33642eb1-5f5f-4b9f-a71a-bdd615e46584")
+	)
+	(label "PCIE30_TX3_N"
+		(at 105.41 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "426961fc-5347-4676-abd7-ba379f3c894d")
+	)
+	(label "PCIE30_TX1_N"
+		(at 105.41 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4c56822e-b703-4388-9a45-a5352cbed2bd")
+	)
+	(label "PCIE30_TX1_P"
+		(at 105.41 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2745,27 +3023,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "9fbe6a4e-edb6-4473-b118-33f20a506fae")
-	)
-	(label "PCIE30_TX3_P"
-		(at 105.41 102.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9fbe6a4e-edb6-4473-b118-33f20a506fae")
-	)
-	(label "PCIE30_TX3_N"
-		(at 105.41 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9fbe6a4e-edb6-4473-b118-33f20a506fae")
+		(uuid "a65d5e34-546f-4bf9-bac7-d5c06d893680")
 	)
 	(label "PCIE30_TX0_P"
 		(at 105.41 87.63 0)
@@ -2775,27 +3033,17 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "9fbe6a4e-edb6-4473-b118-33f20a506fae")
+		(uuid "b5dd075a-1dac-4c39-bbad-2d7eb456a9b0")
 	)
-	(label "PCIE30_TX0_N"
-		(at 105.41 90.17 0)
+	(label "PCIE30_TX3_P"
+		(at 105.41 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "9fbe6a4e-edb6-4473-b118-33f20a506fae")
-	)
-	(label "PCIE30_TX1_N"
-		(at 105.41 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9fbe6a4e-edb6-4473-b118-33f20a506fae")
+		(uuid "cb13bc15-fccf-4c85-828f-11ea16680fc9")
 	)
 	(hierarchical_label "PCIE_RX_2-"
 		(shape output)
@@ -2822,17 +3070,6 @@
 	(hierarchical_label "~{PE_RST}"
 		(shape input)
 		(at 163.83 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "255dbe0b-39cd-4671-b425-172856224734")
-	)
-	(hierarchical_label "~{WAKE}"
-		(shape input)
-		(at 153.67 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2874,6 +3111,17 @@
 		)
 		(uuid "3dfb491d-dd3f-4ef1-8479-6e32b03392ba")
 	)
+	(hierarchical_label "PCIE_TX_3+"
+		(shape input)
+		(at 82.55 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "43bcb785-9781-4837-9d65-84d183dcdbfa")
+	)
 	(hierarchical_label "PCIE_RX_1-"
 		(shape output)
 		(at 153.67 95.25 0)
@@ -2896,39 +3144,6 @@
 		)
 		(uuid "4995b7ee-ad0c-4c90-9e5b-b182f3d406ff")
 	)
-	(hierarchical_label "PCIE_TX_2-"
-		(shape input)
-		(at 82.55 100.33 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4995b7ee-ad0c-4c90-9e5b-b182f3d406ff")
-	)
-	(hierarchical_label "PCIE_TX_3+"
-		(shape input)
-		(at 82.55 102.87 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4995b7ee-ad0c-4c90-9e5b-b182f3d406ff")
-	)
-	(hierarchical_label "PCIE_TX_3-"
-		(shape input)
-		(at 82.55 105.41 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4995b7ee-ad0c-4c90-9e5b-b182f3d406ff")
-	)
 	(hierarchical_label "PCIE_TX_0-"
 		(shape input)
 		(at 82.55 90.17 180)
@@ -2938,29 +3153,18 @@
 			)
 			(justify right)
 		)
-		(uuid "4995b7ee-ad0c-4c90-9e5b-b182f3d406ff")
+		(uuid "51a0876c-bb8f-4478-8f3a-261490c3ce5a")
 	)
-	(hierarchical_label "PCIE_TX_1+"
+	(hierarchical_label "~{WAKE}"
 		(shape input)
-		(at 82.55 92.71 180)
+		(at 153.67 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "4995b7ee-ad0c-4c90-9e5b-b182f3d406ff")
-	)
-	(hierarchical_label "PCIE_TX_1-"
-		(shape input)
-		(at 82.55 95.25 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4995b7ee-ad0c-4c90-9e5b-b182f3d406ff")
+		(uuid "5c0ab48f-4e6c-4983-8c5c-fc6c51ba354f")
 	)
 	(hierarchical_label "PCIE_TX_0+"
 		(shape input)
@@ -2971,7 +3175,40 @@
 			)
 			(justify right)
 		)
-		(uuid "4995b7ee-ad0c-4c90-9e5b-b182f3d406ff")
+		(uuid "7b0785c8-4a25-4a4f-80ba-3ed21f68c17f")
+	)
+	(hierarchical_label "PCIE_TX_2-"
+		(shape input)
+		(at 82.55 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7f8ea4aa-6cb7-4bbe-98b4-0dc85476b3de")
+	)
+	(hierarchical_label "REFCLK+"
+		(shape input)
+		(at 123.19 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "902db757-1908-43ae-917f-666e327cc8ed")
+	)
+	(hierarchical_label "PCIE_TX_1-"
+		(shape input)
+		(at 82.55 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9332340b-1f28-4bfb-9897-5a14548ea27a")
 	)
 	(hierarchical_label "PCIE_RX_0-"
 		(shape output)
@@ -2983,6 +3220,28 @@
 			(justify left)
 		)
 		(uuid "dd7f339a-1738-4be8-ba36-d5fcdaf02bf6")
+	)
+	(hierarchical_label "PCIE_TX_1+"
+		(shape input)
+		(at 82.55 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e5de0915-5d67-4c1e-af69-721613576698")
+	)
+	(hierarchical_label "PCIE_TX_3-"
+		(shape input)
+		(at 82.55 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e92e4de0-60c9-4367-bee9-85fb5e925580")
 	)
 	(hierarchical_label "PCIE_RX_3-"
 		(shape output)
@@ -3006,16 +3265,71 @@
 		)
 		(uuid "f0ab90e2-052c-4323-9e0e-295332262246")
 	)
-	(hierarchical_label "REFCLK+"
-		(shape input)
-		(at 123.19 64.77 180)
-		(effects
-			(font
-				(size 1.27 1.27)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 91.44 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "035a8774-26dc-4256-a6a2-b212b1d71bd9")
+		(property "Reference" "#FLG013"
+			(at 91.44 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
-			(justify right)
 		)
-		(uuid "f0ab90e2-052c-4323-9e0e-295332262246")
+		(property "Value" "PWR_FLAG"
+			(at 91.44 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 91.44 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e9285d6-078b-4a53-a9d6-8ab293066d77")
+		)
+		(instances
+			(project ""
+				(path "/9ba2df7d-1c0f-41ea-bb38-2c3f31e14521/4a1bac12-9a05-4cda-9b33-fbf4f54c95f3"
+					(reference "#FLG013")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -4482,6 +4796,72 @@
 			(project "latte-panda-carrier"
 				(path "/9ba2df7d-1c0f-41ea-bb38-2c3f31e14521/4a1bac12-9a05-4cda-9b33-fbf4f54c95f3"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12VA")
+		(at 82.55 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bceca16f-2892-4b4a-b7bf-3ebb6ab04933")
+		(property "Reference" "#PWR0119"
+			(at 82.55 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12VA"
+			(at 82.55 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12VA\""
+			(at 82.55 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c86184cd-61d8-41bd-9ba1-ab353e210895")
+		)
+		(instances
+			(project ""
+				(path "/9ba2df7d-1c0f-41ea-bb38-2c3f31e14521/4a1bac12-9a05-4cda-9b33-fbf4f54c95f3"
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
